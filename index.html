@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+
+        <!-- for FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Style+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="main.css">
+
+
+</head>
+<body>
+
+
+    <header class="header">
+        <h1 class="mainTitle">Todo</h1>
+    </header>
+
+
+    <form class="todo-form" action="#">
+        <input type="text" class="form-item input-todo" placeholder="Enter your Todo Title">
+        <button type="button" class="form-item btn-todo-add">
+            <i class="far fa-plus-square"></i>
+        </button>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list">
+            <!-- <div class="todo-item todo-completed">
+                <li class="todo-content ">Shopping</li>
+                <button class="todo-btn todo-btn-completed"><i class="far fa-check-square"></i></button>
+                <button class="todo-btn todo-delete"><i class="far fa-trash-alt"></i></button>
+            </div> -->
+        </ul>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

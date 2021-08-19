@@ -1,0 +1,110 @@
+:root {
+  --main-color: rgba(230, 126, 34, 1);
+  --main-color-light: rgba(230, 126, 34, 0.5);
+  --accent-color: rgba(142, 68, 173, 1);
+  --accent-color-light: rgba(142, 68, 173, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Indie Flower", cursive;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    var(--main-color-light)
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.mainTitle {
+  font-size: 4rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.header,
+.todo-form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-item {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+.btn-todo-add{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.btn-todo-add:hover{
+    color: white;
+    background-color: var(--main-color );
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    list-style: none;
+    min-width: 40%;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem  ;
+    font-size: 1.3rem;
+    transition: 0.5s ease-in-out;
+}
+
+.todo-content{
+    flex: 1;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.todo-btn{
+    background-color: var(--accent-color);
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+.todo-delete{
+    background-color: var(--accent-color-light);
+}
+
+.todo-completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.far{
+  pointer-events: none;
+}
+
+.deleted{
+  transform: scale(0);
+}
+
+/* Usage Fonts */
+/* 
+font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Style Script', cursive; */
