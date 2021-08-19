@@ -1,6 +1,6 @@
 ﻿# TodoApp-JavaScript-
  
- ##First JavaScript Todo Application.
+ ## First JavaScript Todo Application.
  ### with LocalStorage
  
  
